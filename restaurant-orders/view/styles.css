@@ -1,0 +1,20 @@
+/* Estilos para los enlaces */
+nav a {
+    color: #ffffff; /* Color del texto */
+    text-decoration: none; /* Sin subrayado */
+    padding: 10px 20px; /* Espaciado interior */
+    margin-right: -10px; /* Espaciado entre enlaces */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #979797; /* Color de fondo */
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+  }
+  
+  /* Estilos cuando el cursor está sobre los enlaces */
+  nav a:hover {
+    background-color: #8d2a2a; /* Cambio de color de fondo al pasar el cursor */
+  }
+  
+  /* Estilos para el último enlace */
+  nav a:last-child {
+    margin-right: 0; /* Eliminar el margen derecho del último enlace */
+  }
