@@ -75,9 +75,28 @@
     <p>Aquí van los detalles de contacto del restaurante...</p>
   </section>
 
-  <footer>
-    <p>&copy; 2024 Restaurante Delicias</p>
-  </footer>
+
+  
+  <!-- Agregar un formulario para ingresar pedidos -->
+<section class="Pedido" id="pedido">
+  <h2>Realizar Pedido</h2>
+  <form id="orderForm">
+    <label for="tableNumber">Número de Mesa:</label>
+    <input type="number" id="tableNumber" name="tableNumber" required>
+    <br>
+    <label for="items">Elementos del Pedido:</label>
+    <textarea id="items" name="items" rows="4" required></textarea>
+    <!-- Podrías agregar más campos según tus necesidades -->
+    <button type="submit">Enviar Pedido</button>
+  </form>
+</section>
+
+<!-- Página de confirmación de pedido -->
+<section class="Confirmación" id="confirmación" style="display: none;">
+  <h2>Confirmación de Pedido</h2>
+  <p id="confirmationMessage"></p>
+</section>
+
 </body>
 </html>
 

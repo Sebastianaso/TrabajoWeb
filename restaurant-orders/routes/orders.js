@@ -22,7 +22,7 @@ router.post('/new', (req, res) => {
 
 // Definir la ruta GET para una respuesta de ejemplo
 router.get('/', (req, res) => {
-  res.send('Ruta de ejemplo');
+  res.send('index');
 });
 
 module.exports = router;
